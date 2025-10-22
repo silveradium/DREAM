@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>DREAM: Visual Decoding from Reversing Human Visual System</h1>
+  <h1>Reproduction of the results produced by "DREAM" Reasearch Paper</h1>
   <div>
     <a href="https://github.com/silveradium" target="_blank">Agra Navaratne</a><sup>1</sup> &emsp;
     <a href="https://github.com/RivikulaFernando" target="_blank">Rivikula Fernando</a><sup>1</sup>
