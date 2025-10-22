@@ -19,9 +19,10 @@
 
 <div align="center">
 
-![Alt text](DREAM/media/methodology.png)
+![Alt text](media/methodology.png)
+<a href="media/DREAM.pdf" target="_blank">View Project Paper (PDF)</a>
 
-## 📌 Project Overview <a href="DREAM/media/DREAM.pdf" target="_blank">View Project Paper (PDF)</a>
+## 📌 Project Overview 
 
 This repository contains a reproduction of the **DREAM: Visual Decoding from REversing HumAn Visual SysteM** project, originally presented in the paper by Xia et al. (WACV 2024). The work was carried out as an academic assignment at the University of Moratuwa under the supervision of Venuri Amarasinghe and Ranga Rodrigo.
 
