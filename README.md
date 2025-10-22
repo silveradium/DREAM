@@ -30,8 +30,8 @@ This repository contains a reproduction of the **DREAM: Visual Decoding from REv
 **DREAM** is an fMRI-to-image method designed to reconstruct visual stimuli from brain activity, leveraging principles of the human visual system (HVS). By modeling reverse pathways, it decodes semantics, color, and depth cues from fMRI data, reconstructing images using Stable Diffusion and T2I-Adapter.
 
 ### Current Status
-- **R-PKM (Depth & Color Decipher)**: ✅ Fully replicated using MiDaS for depth reconstruction and pretrained models for inference.
-- **R-VAC (Semantics Decipher)**: 🟡 Partially implemented, currently using Versatile Diffusion as the image generator instead of the full DREAM pipeline.
+- **R-PKM (Depth & Color Decipher)**: ✅ Fully replicated. Uses MiDaS for depth reconstruction, uses vdvae pretrained model for latent feature extraction where fmri data is trained across latent features using ridge regression.
+- **R-VAC (Semantics Decipher)**: 🟡 Partially implemented, currently using Versatile Diffusion as the image generator instead of the full DREAM pipeline. Fmri data is converted to CLIP Text and CLIP Vision using a pretrained versatile diffusion model.
 - **Final Reconstruction**: 🟡 Functional, using Stable Diffusion with T2I-Adapter for depth-guided and text-prompt-based image reconstruction.
 - ⚠️ This is a work in progress, with known inconsistencies in R-VAC inference that will be addressed in future updates.
 
@@ -41,7 +41,7 @@ This repository contains a reproduction of the **DREAM: Visual Decoding from REv
 
 The DREAM reproduction simplifies the original pipeline into a single, Colab-oriented workflow, integrating the following components:
 
-1. **Reverse Parallel PKM (R-PKM)**: Predicts depth and color cues from fMRI data, mimicking the reverse processes of the HVS.
+1. **Reverse PKM (R-PKM)**: Predicts depth and color cues from fMRI data, mimicking the reverse processes of the HVS.
 2. **Reverse Visual Association Cortex (R-VAC)**: Extracts semantics from fMRI data (partially implemented using Versatile Diffusion).
 3. **Guided Image Reconstruction (GIR)**: Reconstructs images using Stable Diffusion with T2I-Adapter’s Color Adapter (C-A) and Depth Adapter (D-A).
 
