@@ -57,7 +57,7 @@ The pipeline uses the **Natural Scenes Dataset (NSD)** for training and testing,
 
 ### Prerequisites
 - **Hardware Requirements**:
-  - **Disk Space**: ≥ 40 GB (for Subject 1 NSD data + pretrained models)
+  - **Disk Space**: ≥ 15 GB (for Subject 1 NSD data + pretrained models)
   - **System RAM**: ≥ 50 GB
   - **GPU**: ≥ 15 GB VRAM (e.g., NVIDIA T4 GPU with High RAM in Colab)
 - **Software Dependencies**: Listed in `main.ipynb` or install manually via:
