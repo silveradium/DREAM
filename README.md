@@ -22,7 +22,6 @@
 <div align="center">
   <img src="media/methodology.png" width="50%"/>
 </div>
-<a href="media/DREAM.pdf" target="_blank">View Project Paper (PDF)</a>
 
 ## 📌 Project Overview 
 
